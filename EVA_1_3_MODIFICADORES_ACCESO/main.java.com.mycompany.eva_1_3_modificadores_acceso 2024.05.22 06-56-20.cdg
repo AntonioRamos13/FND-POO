@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="main.java.com.mycompany.eva_1_3_modificadores_acceso">
+  <ClassDiagramComponents>
+    <Class name="ClasePrueba_2" package="com.mycompany.eva_1_3_modificadores_acceso" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="w" type="int" visibility="private"/>
+        <Field name="x" type="int" visibility="protected"/>
+        <Field name="y" type="int" visibility="public"/>
+        <Field name="z" type="int" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="EVA_1_3_MODIFICADORES_ACCESO" package="com.mycompany.eva_1_3_modificadores_acceso" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
