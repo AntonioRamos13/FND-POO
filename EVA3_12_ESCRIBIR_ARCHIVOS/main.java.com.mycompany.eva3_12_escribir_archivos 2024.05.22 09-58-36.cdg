@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="main.java.com.mycompany.eva3_12_escribir_archivos">
+  <ClassDiagramComponents>
+    <Class name="EVA3_12_ESCRIBIR_ARCHIVOS" package="com.mycompany.eva3_12_escribir_archivos" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="miRuta" type="String" visibility="package" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="writeUsingFiles" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="ruta"/>
+          <Argument type="String" name="datos"/>
+        </Method>
+        <Method name="writeUsingFileWriter" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="ruta"/>
+          <Argument type="String" name="datos"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
