@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="main.java.com.mycompany.eva1_9_triangulo">
+  <ClassDiagramComponents>
+    <Class name="EVA1_9_TRIANGULO" package="com.mycompany.eva1_9_triangulo" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Triangulo" package="com.mycompany.eva1_9_triangulo" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="base" type="double" visibility="private"/>
+        <Field name="altura" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getBase" returnType="double" visibility="public"/>
+        <Method name="getAltura" returnType="double" visibility="public"/>
+        <Method name="calcularArea" returnType="double" visibility="public"/>
+        <Method name="calcularHipotenusa" returnType="double" visibility="public"/>
+        <Method name="calcularPerimetro" returnType="double" visibility="public">
+          <Argument type="double" name="calcularHipotenusa"/>
+        </Method>
+        <Method name="imprimirDatos" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
