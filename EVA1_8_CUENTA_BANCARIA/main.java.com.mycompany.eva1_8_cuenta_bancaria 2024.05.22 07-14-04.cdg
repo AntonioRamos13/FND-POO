@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="main.java.com.mycompany.eva1_8_cuenta_bancaria">
+  <ClassDiagramComponents>
+    <Class name="CuentaBancaria" package="com.mycompany.eva1_8_cuenta_bancaria" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="saldo" type="double" visibility="private"/>
+        <Field name="noCuenta" type="int" visibility="private"/>
+        <Field name="noCL" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="imprimirDatosCuenta" returnType="void" visibility="public"/>
+        <Method name="retirar" returnType="void" visibility="public">
+          <Argument type="double" name="monto"/>
+        </Method>
+        <Method name="depositar" returnType="void" visibility="public">
+          <Argument type="double" name="monto"/>
+        </Method>
+        <Method name="getSaldo" returnType="double" visibility="public"/>
+        <Method name="setSaldo" returnType="void" visibility="public">
+          <Argument type="double" name="saldo"/>
+        </Method>
+        <Method name="getNoCuenta" returnType="int" visibility="public"/>
+        <Method name="setNoCuenta" returnType="void" visibility="public">
+          <Argument type="int" name="noCuenta"/>
+        </Method>
+        <Method name="getNoCL" returnType="String" visibility="public"/>
+        <Method name="setNoCL" returnType="void" visibility="public">
+          <Argument type="String" name="noCL"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="EVA1_8_CUENTA_BANCARIA" package="com.mycompany.eva1_8_cuenta_bancaria" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
